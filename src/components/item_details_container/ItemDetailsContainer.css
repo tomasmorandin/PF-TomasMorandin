@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container-fluid .row {
+  padding: 20px;
+}
+.container-fluid .row img {
+  width: auto;
+  height: 520px;
+  padding-bottom: 10px;
+}
+.container-fluid .row .description {
+  border: 1px solid #031A51;
+  padding: 20px;
+  border-radius: 5px;
+  height: auto;
+}
+.container-fluid .row .description .card-text1 {
+  color: #031A51;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.container-fluid .row .description .card-text2 {
+  color: #031A51;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.container-fluid .row .description .btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #031A51;
+  background-color: #031A51;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 2;
+  transition: all 0.7s;
+}
+.container-fluid .row .description .btn:hover {
+  background-color: #FFAB11;
+  border: 1px solid #FFAB11;
+  transform: scale(1.05);
+  color: #031A51;
+}
+.container-fluid .row .description .button {
+  width: 60px;
+  border-radius: 5px;
+  border: 1px solid #031A51;
+  background-color: #031A51;
+  color: #fff;
+  margin: 5px;
+  line-height: 2;
+}
+.container-fluid .row .description p {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=ItemDetailsContainer.css.map */

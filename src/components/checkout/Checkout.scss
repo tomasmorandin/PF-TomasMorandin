@@ -1,0 +1,82 @@
+$color1:#fff;
+$color2:#000;
+$color3:#EAEAEA;
+$color4:#FFAB11;
+$color5:#031A51;
+$color6:rgba(3, 26, 81, 0.5);
+$color7:rgba(255, 172, 17, 0.459);
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$fontsize0: 115px;
+$fontsize1: 80px;
+$fontsize2: 37px;
+$fontsize3: 25px;
+$fontsize4: 18px;
+
+$height1: 700px;
+$height2: 80px;
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: $color3;
+    text-align: center;
+    padding-top: 20px;
+
+    .card-text1{
+        color: $color5;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 2rem;
+        
+        .input{
+            border-radius: 5px ;
+            border: 1px solid $color4;
+            font-size: $fontsize4;
+            background-color: $color3;
+            padding: 10px;
+            width: 280px;
+            transition: all .3s ease-in-out; 
+        }
+
+        .textarea{
+            border-radius: 5px ;
+            border: 1px solid $color4;
+            font-size: $fontsize4;
+            background-color: $color3;
+            width: 280px;
+            padding: 10px;
+        }
+
+    }
+    
+    .btn{
+        width: 180px;
+        border-radius: 5px ;
+        border: 1px solid $color5;
+        background-color: $color5;
+        color: $color1;
+        margin-bottom: 25px;
+        line-height: 2;
+        transition: all 0.7s;
+        text-align: center;
+    }
+
+    .btn:hover {
+        transform: scale(1.1);
+        background-color: $color4;
+        border: 1px solid $color4;
+        transform: scale(1.05);
+        color: $color5;
+    }
+
+};

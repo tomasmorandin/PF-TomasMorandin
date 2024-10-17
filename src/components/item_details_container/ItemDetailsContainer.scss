@@ -1,0 +1,91 @@
+$color1:#fff;
+$color2:#000;
+$color3:#EAEAEA;
+$color4:#FFAB11;
+$color5:#031A51;
+$color6:rgba(3, 26, 81, 0.5);
+$color7:rgba(255, 172, 17, 0.459);
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$fontsize0: 115px;
+$fontsize1: 80px;
+$fontsize2: 37px;
+$fontsize3: 25px;
+$fontsize4: 18px;
+
+$height1: 700px;
+$height2: 80px;
+
+.container-fluid{
+   
+    .row{
+        padding: 20px;
+
+        img{
+            width: auto;
+            height: 520px;
+            padding-bottom: 10px;
+        }
+        
+        .description{
+            border: 1px solid $color5;
+            padding: 20px;
+            border-radius: 5px;
+            height: auto;
+    
+            .card-text1{
+                color: $color5;
+                font-size: 25px;
+                font-weight: bolder;
+            }
+    
+            .card-text2{
+                color: $color5;
+                font-size: 15px;
+                margin-bottom: 25px;
+            }
+    
+            .btn{
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                width: 50%;
+                border-radius: 5px ;
+                border: 1px solid $color5;
+                background-color: $color5;
+                color: $color1;
+                margin-bottom: 10px;
+                line-height: 2;
+                transition: all 0.7s;
+            }
+    
+            .btn:hover{
+                background-color: $color4;
+                border: 1px solid $color4;
+                transform: scale(1.05);
+                color: $color5;
+            }
+
+            .button{
+                width: 60px;
+                border-radius: 5px;
+                border: 1px solid #031A51;
+                background-color: #031A51;
+                color: #fff;
+                margin: 5px;
+                line-height: 2;
+            }
+            
+            p{
+                color: black;
+                text-align: center;
+                font-weight: bold;
+            }
+
+        }
+
+    }
+
+}
+

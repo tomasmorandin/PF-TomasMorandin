@@ -1,0 +1,45 @@
+$color1:#fff;
+$color2:#000;
+$color3:#EAEAEA;
+$color4:#FFAB11;
+$color5:#031A51;
+$color6:rgba(3, 26, 81, 0.5);
+$color7:rgba(255, 172, 17, 0.459);
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$fontsize0: 115px;
+$fontsize1: 80px;
+$fontsize2: 37px;
+$fontsize3: 25px;
+$fontsize4: 18px;
+
+$height1: 700px;
+$height2: 80px;
+
+
+.navbar{
+    background-color: $color5;
+    color: $color1;
+    font-size: $fontsize4;
+    border-bottom: 0.5px solid white;
+    backdrop-filter: blur(12px);
+    position: fixed;
+    z-index: 9999;
+    
+    .collapse{
+        background-color: #031A51;
+        margin-bottom: 5px;
+
+        .nav-link{
+            transition: all 0.5s;
+            color: $color1;
+        }
+        .nav-link:hover{
+            transform: scale(1.05);
+            color: $color4;
+        }
+    }
+
+}
+

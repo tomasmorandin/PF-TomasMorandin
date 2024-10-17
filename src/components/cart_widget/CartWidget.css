@@ -1,0 +1,11 @@
+.cart-item{
+    margin-left: 25px;
+    letter-spacing: 10px;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.cart-item:hover{
+    transform: scale(1.05);
+    color: #FFAB11;
+}

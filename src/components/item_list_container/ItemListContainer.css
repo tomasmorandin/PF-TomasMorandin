@@ -1,0 +1,18 @@
+.greeting{
+    font-size: 30px;
+    color: #FFAB11 ;
+    font-Weight: 'bold';
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2{
+    color: #031A51;
+    padding-top: 20px;
+}
+
+.img{
+    width: 600px;
+}
